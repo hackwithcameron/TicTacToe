@@ -4,7 +4,7 @@ body {
 
 #shell {
     width: 950px;
-    margin: 0px, auto;
+    margin: 0px auto;
 }
 
 #gameMsgBox {
@@ -59,18 +59,24 @@ table tr:nth-child(-n+3) td:nth-child(-n+3):hover {
     background-color: #e5fbff;
 }
 
-table tr:nth-child(1) td:nth-child(1){
+table tr:nth-child(1) td:nth-child(1) {
     border-radius: 10px 0px 0px 0px;
 }
 table tr:nth-child(1) td:nth-child(3) {
     border-radius: 0px 10px 0px 0px;
 }
 
-table tr:nth-child(3) td:nth-child(3){
+table tr:nth-child(3) td:nth-child(3) {
     border-radius: 0px 0px 10px 0px;
 }
 table tr:nth-child(3) td:nth-child(1) {
     border-radius: 0px 0px 0px 10px;
+}
+
+.photo-container {
+    height: 200px;
+    width: 200px;
+    text-align: center;
 }
 
 .O {
@@ -152,7 +158,7 @@ table tr:nth-child(3) td:nth-child(1) {
 
 #controls {
     width: 200px;
-    float: center;
+    float: left;
     margin: 0 auto;
 }
 
