@@ -86,7 +86,7 @@ table tr:nth-child(3) td:nth-child(1) {
     background-image: url(../Images/avatarO.png);
     width: 200px;
     height: 200px;
-    transform: translateY(-100%);
+    transform: translateY(200%);
 }
 
 .X {
